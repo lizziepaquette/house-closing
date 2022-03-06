@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Road from '../photos/olympics.jpg'
+import Road from '../photos/discoball.webp'
 
 const LogisticsIframe = styled.iframe`
     align-items: center;
@@ -33,7 +33,7 @@ const PageStyle = styled.div`
 const Logistics = () => (
     <PageStyle>
     <LogisticsIframe
-        src="https://docs.google.com/spreadsheets/d/1RRy8h4gIc215vqbMBt7nklGBLXJjXdjvYYRvJvioQmw/edit?usp=sharing?&amp;rm=minimal&amp;single=true&amp;headers=false&amp;widget=true&amp;">
+        src="https://docs.google.com/document/d/1Oe3qHGnspVeo5v4ZE_pE0myhOMKYocqnVvCa749nvso/edit?usp=sharing?&amp;rm=minimal&amp;single=true&amp;headers=false&amp;widget=true&amp;">
     </LogisticsIframe>
     </PageStyle>
 )

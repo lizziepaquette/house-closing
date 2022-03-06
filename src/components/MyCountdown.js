@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import Countdown from 'react-countdown'
-import temeculaMainPhoto from '../photos/temecula-main-view.svg'
+import temeculaMainPhoto from '../photos/dolores.jpeg'
 import funnyBwBackground from '../photos/temecula-main-view-bw.svg'
 
 const CountdownHeader = styled.h1`
   font-size: 14vmin;
+  text-shadow: -1px 0 SkyBlue, 0 1px DarkGreen, 1px 0 LightSalmon, 0 -1px DarkGreen;
   margin: 0px;
   font-weight: 550;
   text-transform: uppercase;
@@ -31,7 +32,7 @@ const CountdownClockWrapper = styled.div`
 const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
 
   const now = new Date()
-  const tripOver = new Date("2021-08-19T23:00:00Z")
+  const tripOver = new Date("2022-03-19T23:00:00Z")
   const tripIsOver = now.getTime() > tripOver.getTime()
 
   if (completed && ! tripIsOver) {
@@ -77,7 +78,7 @@ const PageWrapper = styled.div`
 `
 
 const MyCountdown = () => {
-  const temeculaTripStart = new Date('2021-08-13T16:00:00')
+  const temeculaTripStart = new Date('2022-03-12T14:00:00')
 
   return <PageWrapper className="App">
       <Countdown

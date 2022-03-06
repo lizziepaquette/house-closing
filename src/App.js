@@ -49,7 +49,7 @@ function App () {
             />
             <Route
               exact
-              path='/temeculympics'
+              path='/running-updates'
               component={Logistics}
             />
             <Route

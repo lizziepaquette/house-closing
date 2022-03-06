@@ -2,7 +2,7 @@ import React from 'react'
 import AirbnbPreview from './AirbnbPreview'
 import RawCalendar from './RawCalendar'
 import YoutubeVid from './YoutubeVid'
-import Sunset from '../photos/sunset.jpeg'
+import Sunset from '../photos/alamosquare.jpeg'
 import styled from 'styled-components'
 import RawMaps from './RawMaps'
 
@@ -64,22 +64,22 @@ const InfoWrapper = styled.div`
 
 const Info = () => {
   const infoSectionProps = [
-    {
-      title: 'When',
-      content: <WhenSection />
-    },
+    // {
+    //   title: 'When',
+    //   content: <WhenSection />
+    // },
     {
       title: 'Where',
       content: <WhereSection />
-    },
-    {
-      title: 'Virtual Tour',
-      content: <YoutubeVid />
-    },
-    {
-      title: 'AirBnB Listing',
-      content: <AirbnbPreview />
     }
+    // {
+    //   title: 'Virtual Tour',
+    //   content: <YoutubeVid />
+    // }
+    // {
+    //   title: 'AirBnB Listing',
+    //   content: <AirbnbPreview />
+    // }
   ]
   return (
         <InfoWrapper>
