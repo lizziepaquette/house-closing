@@ -1,5 +1,5 @@
 import React from 'react'
-import Sunset from '../photos/retro.jpg'
+import Sunset from '../photos/rollerskates.jpeg'
 import styled from 'styled-components'
 
 
@@ -34,57 +34,71 @@ const Bdiv = styled.div`
 const Schedule = () => {
   const infoSectionProps = [
     {
-      title: 'Friday',
-      content: <div> Arrive and rest </div>
+      title: 'Dolores Park',
+      content: <div>
+        <div> 2pm - 4pm </div>
+        <div>
+          We don&apos;t hang at Dolores much (it&apos;s too &quot;crowded&quot; for Jack :-/), but we&apos;ve spent a lot of time
+          over the last 3 years chilling in parks and its location
+          (southern-most stop on our tour, close to 16th-Mission BART) makes it the day&apos;s perfect starting point
+        </div>
+      </div>
     },
     {
-      title: 'Saturday',
+      title: 'Bar Part Time',
       content: <div>
-            <div> Costco Run 9am </div>
-            <div> Rage all day </div>
-            <div> Rotisserie chicken by Costco 6pm </div>
+            <div> 4pm - 6pm </div>
+            <div>
+              3 years ago, our friend Thomas showed us Ruby Wine, and it was love-at-first-sip-on-Potrero-Hill (or something like that).
+              Ruby is a little far to include in our tour, but Thomas has since showed us Bar Part Time - a magical venue sharing Ruby&apos;s
+              regulars, but inside with a disco ball.
+            </div>
         </div>
     },
     {
-      title: 'Sunday',
+      title: 'Little Star Pizza/Dancing Yak',
       content: <div>
-            <div> Choose your adventure 12pm - 4:30pm</div>
-            <div> Fazeli&apos;s Winery 4:30pm - 5:45pm </div>
-            <div> Horse winery tour at 6pm </div>
-            <div> Steaktips, corn, and salad by Chef Kate 8pm </div>
+            <div> 6pm - 7pm </div>
+            <div>
+              We relied on Little Star&apos;s deep dish a solid bit during the pandemic. They have Vegan Cheese that Lizzie and Jack approve of,
+              so our stomachs can all rest a little easier after this stop.
+              <br></br>
+              <br></br>
+              Feeling Nepali? Dancing Yak is another one of our faves and it&apos;s up half a block from Little Star! Jack once stole an ice cube
+              out of Lizzie&apos;s mouth while eating their Butter Chicken because it was so spicy...
+            </div>
         </div>
     },
     {
-      title: 'Monday',
+      title: '300 Buchanan st',
       content: <div>
-            <div> Nature Hike leaving 8am - 2pm </div>
-            <div> Tiki Happy Hour 4pm - 6pm </div>
-            <div> Chilequiles by Chef Alejandro and Chef Angie 8pm </div>
-            <div> Bon fire 9pm - 11pm </div>
+            <div> 7pm - 9pm  </div>
+            <div>
+              A chance to see our digs one final time and make cocktails from pre-selected recipes.
+              You&apos;ll need the cocktails to get through Jack sobbing and pointing out mundane
+              objects in the southern San Francisco landscape for the full 2 hours.
+            </div>
         </div>
     },
         {
-      title: 'Tuesday',
+      title: 'Church of 8 Wheels',
       content: <div>
-            <Bdiv> Pechanga Casino 11am - 1pm (Optional) </Bdiv>
-            <Bdiv> Pool it dude 1pm - 4:30pm </Bdiv>
-            <Bdiv> Dunch Kofta and Pasta Bolognese by Chef Ayah and Chef Auguste 3:30pm </Bdiv>
-            <Bdiv> Jenn&apos;s &quot;Berkeley Public Library Talk: Popping the Science Bubble&quot; viewing party + rave outfit and face styling 5pm - 6pm</Bdiv>
-            <Bdiv> Disco Rave (at home) 6:30pm - 1am </Bdiv>
+            <Bdiv> 9pm - 11pm  </Bdiv>
+            <div>
+              The entree to end all entrees - the incomparable Church of 8 Wheels. Watch Lizzie
+              zoom around the church while the rest of us absorb the funk and admire the magical
+              weaving of skaters deep into the Fillmore night.
+            </div>
           </div>
     },
         {
-      title: 'Wednesday',
+      title: 'Karaoke',
       content: <div>
-          <div > Alejandro and Angie hot air balloon 5am </div>
-          <div> Temeculympics 11am - 4pm </div>
-          <div> All day grill buffet by Chef &apos;Grill Daddy&apos; Bernard </div>
-          <div> Karaoke Celebration 7pm </div>
+          <div > 11pm - 2am  </div>
+          <div>
+            I highly doubt I&apos;ll be awake for this. - Jack
+          </div>
         </div>
-    },
-        {
-      title: 'Thursday',
-      content: <div>Ch‌e‌c‌k‌ o‌u‌t‌ by 1‌1‌:‌0‌0‌ ‌A‌M‌</div>
     }
   ]
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import NightSky from '../photos/NightSky.mp4'
+import NightSky from '../photos/Sunset.mp4'
 
 const SpotifyIframe = styled.iframe`
     align-items: center;
@@ -62,7 +62,7 @@ const Playlist = () => (
 
     <SpotifyIframe
       title="Collaborative Playlist"
-      src="https://open.spotify.com/embed/playlist/1mPkhlYZZEatTrN5t1AmPD"
+      src="https://open.spotify.com/embed/playlist/0enlhEdYk1fU71Zzxh1n7d?utm_source=generator"
       frameborder="0"
       allowtransparency="true"
       allow="encrypted-media">

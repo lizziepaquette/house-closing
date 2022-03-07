@@ -114,20 +114,20 @@ const Menu = ({ pageWrapId, outerContainerId }
       linkDestination: '/'
     },
     {
-      linkTitle: 'Collaborative Playlist',
-      linkDestination: '/playlist'
-    },
-    {
-      linkTitle: 'Date and Location',
+      linkTitle: 'Info',
       linkDestination: '/info'
-    },
-    {
-      linkTitle: 'Temeculympics',
-      linkDestination: '/temeculympics'
     },
     {
       linkTitle: 'Schedule',
       linkDestination: '/schedule'
+    },
+    {
+      linkTitle: 'Running Updates',
+      linkDestination: '/running-updates'
+    },
+    {
+      linkTitle: 'Collaborative Playlist',
+      linkDestination: '/playlist'
     }
   ]
 
