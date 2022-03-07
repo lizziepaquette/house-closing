@@ -29,26 +29,37 @@ const InfoSection = ({ title, content }) => {
   )
 }
 
-const WhenSectionWrapper = styled.div`
+const AboutSectionWrapper = styled.div`
     > div {
         margin-bottom: 10px;
     }
 `
 
-const WhenSection = () => {
+const AboutSection = () => {
   return (
-        <WhenSectionWrapper>
-            <div><strong>C‌h‌e‌c‌k‌-‌i‌n‌: </strong>‌Friday ‌A‌u‌g‌u‌s‌t‌ ‌1‌3‌,‌ ‌2‌0‌2‌1‌ from ‌4‌:‌0‌0‌ ‌P‌M‌ ‌-‌ ‌8‌:‌0‌0‌ ‌P‌M‌ </div>
-            <div><strong>Ch‌e‌c‌k‌-o‌u‌t‌: </strong>Thursday ‌A‌u‌g‌u‌s‌t‌ ‌1‌9‌,‌ ‌2‌0‌2‌1‌ ‌b‌y‌ ‌1‌1‌:‌0‌0‌ ‌A‌M‌</div>
-            <RawCalendar/>
-        </WhenSectionWrapper>
+        <AboutSectionWrapper>
+            <div>
+              Hello Friends! As many of you know, we are moving out of San Francisco! After 3 memorable years (and some significant water damage) at
+              300 Buchanan, the time has come for us to leave.
+              <br></br>
+              <br></br>
+              Before we go, we want to celebrate some of the treasures in our neighborhood one
+              final time. We&apos;ve put together a little Saturday evening gauntlet to run - please join us for any and all of it!!
+              <br></br>
+              <br></br>
+              Full schedule appears on the &quot;Schedule&quot; page, and we&apos;ll provide updates on our whereabouts on the &quot;Running Updates&quot; page.
+              Please also add some of your favorite party jams to the playlist on the &quot;Collaborative Playlist&quot; page!
+            </div>
+        </AboutSectionWrapper>
   )
 }
 
 const InfoWrapper = styled.div`
-    color: white;
+    color: black;
+    text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
     padding: 100px 5% 5% 35px;
     background-image: url(${Sunset});
+    background-position: 30% 55%;
     box-sizing: border-box;
     background-size: cover;
     background-repeat: no-repeat;
@@ -64,10 +75,10 @@ const InfoWrapper = styled.div`
 
 const Info = () => {
   const infoSectionProps = [
-    // {
-    //   title: 'When',
-    //   content: <WhenSection />
-    // },
+    {
+      title: 'About',
+      content: <AboutSection />
+    },
     {
       title: 'Where',
       content: <WhereSection />
