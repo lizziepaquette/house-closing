@@ -1,7 +1,4 @@
 import React from 'react'
-import AirbnbPreview from './AirbnbPreview'
-import RawCalendar from './RawCalendar'
-import YoutubeVid from './YoutubeVid'
 import Sunset from '../photos/alamosquare.jpeg'
 import styled from 'styled-components'
 import RawMaps from './RawMaps'
@@ -54,6 +51,25 @@ const AboutSection = () => {
   )
 }
 
+const WhenSectionWrapper = styled.div`
+    > div {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+`
+
+const WhenSection = () => {
+  return (
+    <WhenSectionWrapper>
+        <div>
+          Day of Week: Saturday<br></br>
+          Date: March 12th, 2022 <br></br>
+          Time: 2 pm PST
+        </div>
+    </WhenSectionWrapper>
+  )
+}
+
 const InfoWrapper = styled.div`
     color: black;
     text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff;
@@ -80,13 +96,13 @@ const Info = () => {
       content: <AboutSection />
     },
     {
+      title: 'When',
+      content: <WhenSection />
+    },
+    {
       title: 'Where',
       content: <WhereSection />
     }
-    // {
-    //   title: 'Virtual Tour',
-    //   content: <YoutubeVid />
-    // }
     // {
     //   title: 'AirBnB Listing',
     //   content: <AirbnbPreview />
