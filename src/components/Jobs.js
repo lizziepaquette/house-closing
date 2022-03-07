@@ -99,7 +99,7 @@ const Jobs = ({ isScriptLoaded, isScriptLoadSucceed }) => {
             },
             {
                 title: "Github Repository",
-                content: <div className="github-card" data-github="lizziepaquette/temecula-friendcation" data-width="300" data-height="" data-theme="default"></div>
+                content: <div className="github-card" data-github="lizziepaquette/house-closing" data-width="300" data-height="" data-theme="default"></div>
 
             }
         ];
