@@ -1,5 +1,5 @@
 import React from 'react'
-import Sunset from '../photos/jaguar.png'
+import Sunset from '../photos/rollerskates.jpeg'
 import styled from 'styled-components'
 
 
@@ -38,7 +38,7 @@ const Schedule = () => {
       content: <div>
         <div> 2pm - 4pm </div>
         <div>
-          We dont hang at Dolores much (it&apos;s too &quot;crowded&quot; for Jack :-/), but we&apos;ve spent a lot of time
+          We don&apos;t hang at Dolores much (it&apos;s too &quot;crowded&quot; for Jack :-/), but we&apos;ve spent a lot of time
           over the last 3 years chilling in parks and its location
           (southern-most stop on our tour, close to 16th-Mission BART) makes it the day&apos;s perfect starting point
         </div>
@@ -96,7 +96,7 @@ const Schedule = () => {
       content: <div>
           <div > 11pm - 2am  </div>
           <div>
-            I highly doubt I&apos;ll be awake for this.
+            I highly doubt I&apos;ll be awake for this. - Jack
           </div>
         </div>
     }

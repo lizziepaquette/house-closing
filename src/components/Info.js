@@ -63,7 +63,7 @@ const InfoWrapper = styled.div`
     box-sizing: border-box;
     background-size: cover;
     background-repeat: no-repeat;
-    font-weight: 500;
+    font-weight: 501;
     text-transform: uppercase;
     // letter-spacing: 3px;
     font-family: 'Montserrat', sans-serif;
